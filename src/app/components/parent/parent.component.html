@@ -1,0 +1,7 @@
+<h1>{{title}}</h1>
+<button style="height: 50px; width: 500px; color: tomato; font-size: 40px;"
+    (click)="onButtonClicked()"
+>
+    Parent Component
+</button>
+<app-child [text]="title" (clicked)="clickFromChild($event)"></app-child>
