@@ -15,7 +15,6 @@ export class Lop1Component implements OnInit {
 
   ngOnInit(): void {
     this.sinhvien.setSinhVien(this.name);  
-    console.log(this.sinhvien.getSinhVien());
   }
 
 }
